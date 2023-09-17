@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0144D1A2A35AD7600EA3EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0144D192A35AD7600EA3EA4 /* AppDelegate.swift */; };
+		F0144D1C2A35AD7600EA3EA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0144D1B2A35AD7600EA3EA4 /* SceneDelegate.swift */; };
+		F0144D1E2A35AD7600EA3EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0144D1D2A35AD7600EA3EA4 /* ViewController.swift */; };
+		F0144D212A35AD7600EA3EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0144D1F2A35AD7600EA3EA4 /* Main.storyboard */; };
+		F0144D232A35AD7800EA3EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0144D222A35AD7800EA3EA4 /* Assets.xcassets */; };
+		F0144D262A35AD7800EA3EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0144D242A35AD7800EA3EA4 /* LaunchScreen.storyboard */; };
+		F0144D312A35AD7800EA3EA4 /* SubmissionPemulaIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0144D302A35AD7800EA3EA4 /* SubmissionPemulaIOSTests.swift */; };
+		F0144D3B2A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0144D3A2A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests.swift */; };
+		F0144D3D2A35AD7800EA3EA4 /* SubmissionPemulaIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0144D3C2A35AD7800EA3EA4 /* SubmissionPemulaIOSUITestsLaunchTests.swift */; };
+		F0144D4E2A35AE8D00EA3EA4 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0144D4D2A35AE8D00EA3EA4 /* ImageDownloader.swift */; };
+		F0144D512A35B2E200EA3EA4 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0144D4F2A35B2E200EA3EA4 /* RestaurantTableViewCell.swift */; };
+		F0144D522A35B2E200EA3EA4 /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0144D502A35B2E200EA3EA4 /* RestaurantTableViewCell.xib */; };
+		F0144D542A36046500EA3EA4 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0144D532A36046500EA3EA4 /* RestaurantModel.swift */; };
+		F0144D562A3609C800EA3EA4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0144D552A3609C800EA3EA4 /* NetworkService.swift */; };
+		F0144D5A2A36482300EA3EA4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0144D592A36482300EA3EA4 /* DetailViewController.swift */; };
+		F034627C2A3821E60012C58E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F034627A2A3821E60012C58E /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0144D2D2A35AD7800EA3EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0144D0E2A35AD7600EA3EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0144D152A35AD7600EA3EA4;
+			remoteInfo = SubmissionPemulaIOS;
+		};
+		F0144D372A35AD7800EA3EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0144D0E2A35AD7600EA3EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0144D152A35AD7600EA3EA4;
+			remoteInfo = SubmissionPemulaIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0144D162A35AD7600EA3EA4 /* SubmissionPemulaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubmissionPemulaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0144D192A35AD7600EA3EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0144D1B2A35AD7600EA3EA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F0144D1D2A35AD7600EA3EA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0144D202A35AD7600EA3EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0144D222A35AD7800EA3EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0144D252A35AD7800EA3EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0144D272A35AD7800EA3EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0144D2C2A35AD7800EA3EA4 /* SubmissionPemulaIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmissionPemulaIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0144D302A35AD7800EA3EA4 /* SubmissionPemulaIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionPemulaIOSTests.swift; sourceTree = "<group>"; };
+		F0144D362A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmissionPemulaIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0144D3A2A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionPemulaIOSUITests.swift; sourceTree = "<group>"; };
+		F0144D3C2A35AD7800EA3EA4 /* SubmissionPemulaIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionPemulaIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0144D4D2A35AE8D00EA3EA4 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		F0144D4F2A35B2E200EA3EA4 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		F0144D502A35B2E200EA3EA4 /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
+		F0144D532A36046500EA3EA4 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		F0144D552A3609C800EA3EA4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F0144D592A36482300EA3EA4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F034627A2A3821E60012C58E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0144D132A35AD7600EA3EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0144D292A35AD7800EA3EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0144D332A35AD7800EA3EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0144D0D2A35AD7600EA3EA4 = {
+			isa = PBXGroup;
+			children = (
+				F0144D182A35AD7600EA3EA4 /* SubmissionPemulaIOS */,
+				F0144D2F2A35AD7800EA3EA4 /* SubmissionPemulaIOSTests */,
+				F0144D392A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests */,
+				F0144D172A35AD7600EA3EA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0144D172A35AD7600EA3EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0144D162A35AD7600EA3EA4 /* SubmissionPemulaIOS.app */,
+				F0144D2C2A35AD7800EA3EA4 /* SubmissionPemulaIOSTests.xctest */,
+				F0144D362A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0144D182A35AD7600EA3EA4 /* SubmissionPemulaIOS */ = {
+			isa = PBXGroup;
+			children = (
+				F0144D4C2A35ADF600EA3EA4 /* App */,
+				F0144D4B2A35ADE000EA3EA4 /* FileSystem */,
+				F0144D4A2A35ADBE00EA3EA4 /* NetworkSource */,
+				F0144D492A35ADAC00EA3EA4 /* View */,
+			);
+			path = SubmissionPemulaIOS;
+			sourceTree = "<group>";
+		};
+		F0144D2F2A35AD7800EA3EA4 /* SubmissionPemulaIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0144D302A35AD7800EA3EA4 /* SubmissionPemulaIOSTests.swift */,
+			);
+			path = SubmissionPemulaIOSTests;
+			sourceTree = "<group>";
+		};
+		F0144D392A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0144D3A2A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests.swift */,
+				F0144D3C2A35AD7800EA3EA4 /* SubmissionPemulaIOSUITestsLaunchTests.swift */,
+			);
+			path = SubmissionPemulaIOSUITests;
+			sourceTree = "<group>";
+		};
+		F0144D492A35ADAC00EA3EA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0144D1D2A35AD7600EA3EA4 /* ViewController.swift */,
+				F0144D1F2A35AD7600EA3EA4 /* Main.storyboard */,
+				F0144D4F2A35B2E200EA3EA4 /* RestaurantTableViewCell.swift */,
+				F0144D502A35B2E200EA3EA4 /* RestaurantTableViewCell.xib */,
+				F0144D592A36482300EA3EA4 /* DetailViewController.swift */,
+				F034627A2A3821E60012C58E /* ProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0144D4A2A35ADBE00EA3EA4 /* NetworkSource */ = {
+			isa = PBXGroup;
+			children = (
+				F0144D4D2A35AE8D00EA3EA4 /* ImageDownloader.swift */,
+				F0144D532A36046500EA3EA4 /* RestaurantModel.swift */,
+				F0144D552A3609C800EA3EA4 /* NetworkService.swift */,
+			);
+			path = NetworkSource;
+			sourceTree = "<group>";
+		};
+		F0144D4B2A35ADE000EA3EA4 /* FileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				F0144D222A35AD7800EA3EA4 /* Assets.xcassets */,
+				F0144D242A35AD7800EA3EA4 /* LaunchScreen.storyboard */,
+				F0144D272A35AD7800EA3EA4 /* Info.plist */,
+			);
+			path = FileSystem;
+			sourceTree = "<group>";
+		};
+		F0144D4C2A35ADF600EA3EA4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F0144D192A35AD7600EA3EA4 /* AppDelegate.swift */,
+				F0144D1B2A35AD7600EA3EA4 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0144D152A35AD7600EA3EA4 /* SubmissionPemulaIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0144D402A35AD7800EA3EA4 /* Build configuration list for PBXNativeTarget "SubmissionPemulaIOS" */;
+			buildPhases = (
+				F0144D122A35AD7600EA3EA4 /* Sources */,
+				F0144D132A35AD7600EA3EA4 /* Frameworks */,
+				F0144D142A35AD7600EA3EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubmissionPemulaIOS;
+			productName = SubmissionPemulaIOS;
+			productReference = F0144D162A35AD7600EA3EA4 /* SubmissionPemulaIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0144D2B2A35AD7800EA3EA4 /* SubmissionPemulaIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0144D432A35AD7800EA3EA4 /* Build configuration list for PBXNativeTarget "SubmissionPemulaIOSTests" */;
+			buildPhases = (
+				F0144D282A35AD7800EA3EA4 /* Sources */,
+				F0144D292A35AD7800EA3EA4 /* Frameworks */,
+				F0144D2A2A35AD7800EA3EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0144D2E2A35AD7800EA3EA4 /* PBXTargetDependency */,
+			);
+			name = SubmissionPemulaIOSTests;
+			productName = SubmissionPemulaIOSTests;
+			productReference = F0144D2C2A35AD7800EA3EA4 /* SubmissionPemulaIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0144D352A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0144D462A35AD7800EA3EA4 /* Build configuration list for PBXNativeTarget "SubmissionPemulaIOSUITests" */;
+			buildPhases = (
+				F0144D322A35AD7800EA3EA4 /* Sources */,
+				F0144D332A35AD7800EA3EA4 /* Frameworks */,
+				F0144D342A35AD7800EA3EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0144D382A35AD7800EA3EA4 /* PBXTargetDependency */,
+			);
+			name = SubmissionPemulaIOSUITests;
+			productName = SubmissionPemulaIOSUITests;
+			productReference = F0144D362A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0144D0E2A35AD7600EA3EA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F0144D152A35AD7600EA3EA4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F0144D2B2A35AD7800EA3EA4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F0144D152A35AD7600EA3EA4;
+					};
+					F0144D352A35AD7800EA3EA4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F0144D152A35AD7600EA3EA4;
+					};
+				};
+			};
+			buildConfigurationList = F0144D112A35AD7600EA3EA4 /* Build configuration list for PBXProject "SubmissionPemulaIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0144D0D2A35AD7600EA3EA4;
+			productRefGroup = F0144D172A35AD7600EA3EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0144D152A35AD7600EA3EA4 /* SubmissionPemulaIOS */,
+				F0144D2B2A35AD7800EA3EA4 /* SubmissionPemulaIOSTests */,
+				F0144D352A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0144D142A35AD7600EA3EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0144D522A35B2E200EA3EA4 /* RestaurantTableViewCell.xib in Resources */,
+				F0144D262A35AD7800EA3EA4 /* LaunchScreen.storyboard in Resources */,
+				F0144D232A35AD7800EA3EA4 /* Assets.xcassets in Resources */,
+				F0144D212A35AD7600EA3EA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0144D2A2A35AD7800EA3EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0144D342A35AD7800EA3EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0144D122A35AD7600EA3EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0144D512A35B2E200EA3EA4 /* RestaurantTableViewCell.swift in Sources */,
+				F0144D1E2A35AD7600EA3EA4 /* ViewController.swift in Sources */,
+				F0144D1A2A35AD7600EA3EA4 /* AppDelegate.swift in Sources */,
+				F0144D4E2A35AE8D00EA3EA4 /* ImageDownloader.swift in Sources */,
+				F0144D562A3609C800EA3EA4 /* NetworkService.swift in Sources */,
+				F0144D542A36046500EA3EA4 /* RestaurantModel.swift in Sources */,
+				F034627C2A3821E60012C58E /* ProfileViewController.swift in Sources */,
+				F0144D1C2A35AD7600EA3EA4 /* SceneDelegate.swift in Sources */,
+				F0144D5A2A36482300EA3EA4 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0144D282A35AD7800EA3EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0144D312A35AD7800EA3EA4 /* SubmissionPemulaIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0144D322A35AD7800EA3EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0144D3D2A35AD7800EA3EA4 /* SubmissionPemulaIOSUITestsLaunchTests.swift in Sources */,
+				F0144D3B2A35AD7800EA3EA4 /* SubmissionPemulaIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0144D2E2A35AD7800EA3EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0144D152A35AD7600EA3EA4 /* SubmissionPemulaIOS */;
+			targetProxy = F0144D2D2A35AD7800EA3EA4 /* PBXContainerItemProxy */;
+		};
+		F0144D382A35AD7800EA3EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0144D152A35AD7600EA3EA4 /* SubmissionPemulaIOS */;
+			targetProxy = F0144D372A35AD7800EA3EA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0144D1F2A35AD7600EA3EA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0144D202A35AD7600EA3EA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0144D242A35AD7800EA3EA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0144D252A35AD7800EA3EA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0144D3E2A35AD7800EA3EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0144D3F2A35AD7800EA3EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0144D412A35AD7800EA3EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubmissionPemulaIOS/FileSystem/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifvo.SubmissionPemulaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0144D422A35AD7800EA3EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubmissionPemulaIOS/FileSystem/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifvo.SubmissionPemulaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0144D442A35AD7800EA3EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifvo.SubmissionPemulaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubmissionPemulaIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubmissionPemulaIOS";
+			};
+			name = Debug;
+		};
+		F0144D452A35AD7800EA3EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifvo.SubmissionPemulaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubmissionPemulaIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubmissionPemulaIOS";
+			};
+			name = Release;
+		};
+		F0144D472A35AD7800EA3EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifvo.SubmissionPemulaIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SubmissionPemulaIOS;
+			};
+			name = Debug;
+		};
+		F0144D482A35AD7800EA3EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifvo.SubmissionPemulaIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SubmissionPemulaIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0144D112A35AD7600EA3EA4 /* Build configuration list for PBXProject "SubmissionPemulaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0144D3E2A35AD7800EA3EA4 /* Debug */,
+				F0144D3F2A35AD7800EA3EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0144D402A35AD7800EA3EA4 /* Build configuration list for PBXNativeTarget "SubmissionPemulaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0144D412A35AD7800EA3EA4 /* Debug */,
+				F0144D422A35AD7800EA3EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0144D432A35AD7800EA3EA4 /* Build configuration list for PBXNativeTarget "SubmissionPemulaIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0144D442A35AD7800EA3EA4 /* Debug */,
+				F0144D452A35AD7800EA3EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0144D462A35AD7800EA3EA4 /* Build configuration list for PBXNativeTarget "SubmissionPemulaIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0144D472A35AD7800EA3EA4 /* Debug */,
+				F0144D482A35AD7800EA3EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0144D0E2A35AD7600EA3EA4 /* Project object */;
+}
